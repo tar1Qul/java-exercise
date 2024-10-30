@@ -1,0 +1,52 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author Student
+ */
+
+
+public class student {
+    
+    int id;
+    String name,hometown,email;
+    double cgpa;
+  
+void display (){
+    System.out.println("student id"+id+"\nemail");
+        System.out.println("hometown"+hometown);    
+            System.out.println("cgpa"+cgpa);
+                      System.out.println("name"+name);
+
+
+
+
+}
+    public static void main(String[] args){
+        student sujon = new student();
+                student rakib = new student();
+                
+                sujon.id=001;
+                sujon.name="Sujon miya";
+                sujon.email="sujon@ulab.edu.bd";
+                sujon.cgpa= 3.19;
+                sujon.hometown="mohaadpur";
+
+                
+                rakib.id=002;
+                rakib.name="rakib miya";
+                rakib.email="rakib@ulab.edu.bd";
+                rakib.cgpa= 3.09;
+                rakib.hometown="chapai";
+        
+                
+        System.out.println("student id"+sujon.id+"\nemail");
+        System.out.println("hometown"+sujon.hometown);    
+        System.out.println("cgpa"+sujon.cgpa);
+        System.out.println("name"+sujon.name);
+    }    
+        
+}
