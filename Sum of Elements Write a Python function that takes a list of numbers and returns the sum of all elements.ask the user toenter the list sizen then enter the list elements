@@ -1,0 +1,11 @@
+n = int(input("Enter the number of elements in the list: "))
+
+number = []
+
+for i in range (n):
+    num = int(input(f"Enter element for element number {i+1}: "))
+    number.append(num)
+
+total = sum(number)
+
+print(f"Sum of the {i+1} element is: ",total)
